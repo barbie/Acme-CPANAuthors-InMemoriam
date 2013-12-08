@@ -1,0 +1,17 @@
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+Changes
+lib/Acme/CPANAuthors/InMemoriam.pm
+examples/author_info
+examples/company_info
+examples/count
+t/00load.t
+t/10inmemoriam.t
+t/90podtest.t
+t/91podcover.t
+t/94metatest.t
+t/95changedate.t
+t/96metatest.t
