@@ -55,8 +55,8 @@
         "license": "http://www.perlfoundation.org/artistic_license_2_0",
         "bugtracker": { "web": "http://rt.cpan.org/Public/Dist/Display.html?Name=Acme-CPANAuthors-InMemoriam" },
         "repository": {
-            "url": "git://github.com/barbie/acme-cpanauthors-inmemoriam.git",
-            "web": "http://github.com/barbie/acme-cpanauthors-inmemoriam",
+            "url": "git://github.com/barbie/Acme-CPANAuthors-InMemoriam.git",
+            "web": "http://github.com/barbie/Acme-CPANAuthors-InMemoriam",
             "type": "git"
         }
     }

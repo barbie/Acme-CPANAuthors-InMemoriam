@@ -6,7 +6,6 @@ README
 Changes
 lib/Acme/CPANAuthors/InMemoriam.pm
 examples/author_info
-examples/company_info
 examples/count
 t/00load.t
 t/10inmemoriam.t

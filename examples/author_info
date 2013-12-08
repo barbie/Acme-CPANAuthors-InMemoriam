@@ -4,7 +4,7 @@ use Acme::CPANAuthors;
 
 die "usage: $0 PAUSE_ID [PAUSE_ID ...]\n" unless @ARGV;
 
-my $authors  = Acme::CPANAuthors->new("British");
+my $authors  = Acme::CPANAuthors->new("InMemoriam");
 
 for my $id (@ARGV) {
     $id = uc $id;
