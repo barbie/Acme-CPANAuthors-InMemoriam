@@ -21,11 +21,11 @@ is( ~~@ids, $number, " .. \$authors->id equals \$authors->count" );
 SKIP: {
     my $file;
     eval { $file = Acme::CPANAuthors::Utils::_cpan_authors_file() };
-    skip "CPAN configuration not available", 5 if($@ || !$file);
+    skip "CPAN configuration not available", 4 if($@ || !$file);
 
     $file = undef;
     eval { $file = Acme::CPANAuthors::Utils::_cpan_packages_file() };
-    skip "CPAN configuration not available", 5 if($@ || !$file);
+    skip "CPAN configuration not available", 4 if($@ || !$file);
 
     my @distros  = $authors->distributions('IVORW');
     cmp_ok( ~~@distros, ">", 0, " .. \$authors->distributions('IVORW') gives a non-empty list" );
