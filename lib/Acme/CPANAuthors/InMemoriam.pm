@@ -4,20 +4,20 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.02";
+    $VERSION = "1.00";
 }
 
 use Acme::CPANAuthors::Register (
 
     # Our fallen heroes, may they never be forgotten
 
+    'AMORETTE'  => 'Hojung Yoon',
     'GMCCAR'    => 'Greg McCarroll',
     'IVORW'     => 'Ivor Williams',
     'NI-S'      => 'Nick Ing-Simmons',
     'RKOBES'    => 'Randy Kobes',
     'SCHOP'     => 'Ariel Brosh',
     'SPOON'     => 'Iain Truskett',
-    'AMORETTE'  => 'Hojung Yoon',
 );
 
 q<
@@ -135,7 +135,7 @@ Thanks to Kenichi Ishigaki for writing C<Acme::CPANAuthors>.
 
 =head1 COPYRIGHT & LICENSE
 
-  Copyright 2013 Barbie for Miss Barbell Productions.
+  Copyright 2013-2014 Barbie for Miss Barbell Productions.
 
   This distribution is free software; you can redistribute it and/or
   modify it under the Artistic License 2.0.
