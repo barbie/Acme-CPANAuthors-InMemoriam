@@ -17,6 +17,7 @@ use Acme::CPANAuthors::Register (
     'RKOBES'    => 'Randy Kobes',
     'SCHOP'     => 'Ariel Brosh',
     'SPOON'     => 'Iain Truskett',
+    'AMORETTE'  => 'Hojung Yoon',
 );
 
 q<
