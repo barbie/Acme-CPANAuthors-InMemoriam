@@ -2,6 +2,7 @@ Revision history for Acme-CPANAuthors-InMemoriam
 ================================================
 
         - fixed distribution name in META.
+        - added LICENSE file.
 
 1.00    2014-01-12
         - added AMORETTE (thanks to ETHER).
