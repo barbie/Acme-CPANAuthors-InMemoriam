@@ -1,100 +1,40 @@
-Acme::CPANAuthors::InMemoriam
+Acme-CPANAuthors-InMemoriam
+===========================
 
+This module was created to remember those CPAN Authors who are no longer with
+us, who have given us their inspiration in the form of code, to continue and
+celebrate their time with us.
 
+INSTALLATION
 
-NAME
-       Acme::CPANAuthors::InMemoriam - Remembering our fallen heroes
+To install this module type the following:
 
-SYNOPSIS
-          use Acme::CPANAuthors;
+   perl Makefile.PL
+   make
+   make test
+   make install
 
-          my $authors  = Acme::CPANAuthors->new("InMemoriam");
+DEPENDENCIES
 
-          my $number   = $authors->count;
-          my @ids      = $authors->id;
-          my @distros  = $authors->distributions("IVORW");
-          my $url      = $authors->avatar_url("IVORW");
-          my $kwalitee = $authors->kwalitee("IVORW");
-          my $name     = $authors->name("IVORW");
+This module requires these modules:
 
-DESCRIPTION
-       This class provides a hash of CPAN authors' PAUSE ID and name to be
-       used with the "Acme::CPANAuthors" module.
+  Acme::CPANAuthors
 
-       This module was created to remember those CPAN Authors who are no
-       longer with us, who have given us their inspiration in the form of
-       code, to continue and celebrate their time with us.
+For testing the module requires these modules:
 
-MAINTENANCE
-       If you are aware of any CPAN author that has sadly left us, and who is
-       not listed here, please send me their ID/name via email or RT, and I
-       will update the module. If there are any mistakes, please contact me as
-       soon as possible, and I'll amend the entry right away.
+  IO::File
+  Test::More
 
-SEE ALSO
-       Acme::CPANAuthors - Main class to manipulate this one
+For optional testing the module would like these modules:
 
-SUPPORT
-       You can find documentation for this module with the perldoc command.
+  Test::CPAN::Meta
+  Test::CPAN::Meta::JSON
+  Test::Pod
+  Test::Pod::Coverage
 
-           perldoc Acme::CPANAuthors::InMemoriam
+COPYRIGHT AND LICENSE
 
-       You can also look for information at:
+  Copyright (C) 2013-2014 Barbie for Miss Barbell Productions
 
-       ·   Search CPAN
-
-           http://search.cpan.org/dist/Acme-CPANAuthors-InMemoriam
-           <http://search.cpan.org/dist/Acme-CPANAuthors-InMemoriam>
-
-       ·   MetaCPAN
-
-           <https://metacpan.org/module/Acme::CPANAuthors::InMemoriam>
-
-       ·   AnnoCPAN: Annotated CPAN documentation
-
-           http://annocpan.org/dist/Acme-CPANAuthors-InMemoriam
-           <http://annocpan.org/dist/Acme-CPANAuthors-InMemoriam>
-
-       ·   CPAN Ratings
-
-           http://cpanratings.perl.org/d/Acme-CPANAuthors-InMemoriam
-           <http://cpanratings.perl.org/d/Acme-CPANAuthors-InMemoriam>
-
-       Bugs, patches and feature requests can be reported at:
-
-       ·   RT: CPAN's request tracker
-
-           http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-CPANAuthors-InMemoriam
-           <http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-CPANAuthors-
-           InMemoriam>
-
-       ·   GitHub
-
-           http://github.com/barbie/acme-cpanauthors-inmemoriam
-           <http://github.com/barbie/acme-cpanauthors-inmemoriam>
-
-       There are no known bugs at the time of this release. However, if you
-       spot a bug or are experiencing difficulties that are not explained
-       within the POD documentation, please send an email to barbie@cpan.org
-       or submit a bug to the RT queue. However, it would help greatly if you
-       are able to pinpoint problems or even supply a patch.
-
-       Fixes are dependent upon their severity and my availability. Should a
-       fix not be forthcoming, please feel free to (politely) remind me.
-
-ACKNOWLEDGEMENTS
-       Thanks to Kenichi Ishigaki for writing "Acme::CPANAuthors".
-
-AUTHOR
-         Barbie, <barbie@cpan.org>
-         for Miss Barbell Productions <http://www.missbarbell.co.uk>.
-
-COPYRIGHT & LICENSE
-         Copyright 2013 Barbie for Miss Barbell Productions.
-
-         This distribution is free software; you can redistribute it and/or
-         modify it under the Artistic License 2.0.
-
-
-
-perl v5.14.2                      2013-12-08  Acme::CPANAuthors::InMemoriam(3)
+  This distribution is free software; you can redistribute it and/or
+  modify it under the Artistic Licence v2.
