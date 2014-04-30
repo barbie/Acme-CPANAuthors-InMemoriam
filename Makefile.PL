@@ -8,7 +8,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     AUTHOR              => 'Barbie <barbie@cpan.org>',
-    NAME                => 'Acme::CPANAuthors::InMemoriam',
+    NAME                => 'Acme-CPANAuthors-InMemoriam',
     VERSION_FROM        => 'lib/Acme/CPANAuthors/InMemoriam.pm',
     ABSTRACT            => 'In honour of our deceased CPAN Authors',
     NO_META             => 1,
