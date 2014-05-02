@@ -1,6 +1,7 @@
 Revision history for Acme-CPANAuthors-InMemoriam
 ================================================
 
+1.01    2014-05-02
         - fixed distribution name in META.
         - added LICENSE file.
         - Farewell Andrew, it was a pleasure knowing you.
