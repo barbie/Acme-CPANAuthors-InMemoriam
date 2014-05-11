@@ -1,8 +1,10 @@
 Revision history for Acme-CPANAuthors-InMemoriam
 ================================================
 
-        - Sadly adding Christian Karg.
+        - Sadly adding Christian Karg. (notified by Wendy & Liz, confirmed by 
+          Marc Kerr).
         - reorganisation of POD (suggested by Gabor Szabo).
+        - added Tad McClellan and Vahe Sarkissian (notifed by BooK).
 
 1.01    2014-05-02
         - fixed distribution name in META.

@@ -53,15 +53,17 @@ celebrate their time with us.
 
 =head1 OUR HEROES
 
-  AMORETTE    Hojung Yoon           d.2013
-  ANDREWF     Andrew Ford           d.2014
-  CKARG       Christian Karg        d.2013
-  GMCCAR      Greg McCarroll        d.2013
-  IVORW       Ivor Williams         d.2009
-  NI-S        Nick Ing-Simmons      d.2006
-  RKOBES      Randy Kobes           d.2010
-  SCHOP       Ariel Brosh           d.2003
-  SPOON       Iain Truskett         d.2003
+  AMORETTE      Hojung Yoon         d.2013
+  ANDREWF       Andrew Ford         d.2014
+  CKARG         Christian Karg      d.2013
+  GMCCAR        Greg McCarroll      d.2013
+  IVORW         Ivor Williams       d.2009
+  NI-S          Nick Ing-Simmons    d.2006
+  RKOBES        Randy Kobes         d.2010
+  SCHOP         Ariel Brosh         d.2003
+  SPOON         Iain Truskett       d.2003
+  TADMC         Tad McClellan       d.2012
+  VSARKISS      Vahe Sarkissian     d.2008
 
 =head1 MAINTENANCE
 
