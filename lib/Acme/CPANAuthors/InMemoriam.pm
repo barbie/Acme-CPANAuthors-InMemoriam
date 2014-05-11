@@ -13,6 +13,7 @@ use Acme::CPANAuthors::Register (
 
     'AMORETTE'  => 'Hojung Yoon',
     'ANDREWF'   => 'Andrew Ford',
+    'CKARG'     => 'Christian Karg',
     'GMCCAR'    => 'Greg McCarroll',
     'IVORW'     => 'Ivor Williams',
     'NI-S'      => 'Nick Ing-Simmons',
