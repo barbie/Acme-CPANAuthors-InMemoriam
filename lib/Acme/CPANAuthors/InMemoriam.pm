@@ -20,6 +20,9 @@ use Acme::CPANAuthors::Register (
     'RKOBES'    => 'Randy Kobes',
     'SCHOP'     => 'Ariel Brosh',
     'SPOON'     => 'Iain Truskett',
+    'TADMC'     => 'Tad McClellan',
+    'VSARKISS'  => 'Vahe Sarkissian'
+
 );
 
 q<
