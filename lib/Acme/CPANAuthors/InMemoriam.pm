@@ -42,19 +42,6 @@ __END__
 
 Acme::CPANAuthors::InMemoriam - Remembering our fallen heroes
 
-=head1 SYNOPSIS
-
-   use Acme::CPANAuthors;
-
-   my $authors  = Acme::CPANAuthors->new("InMemoriam");
-
-   my $number   = $authors->count;
-   my @ids      = $authors->id;
-   my @distros  = $authors->distributions("IVORW");
-   my $url      = $authors->avatar_url("IVORW");
-   my $kwalitee = $authors->kwalitee("IVORW");
-   my $name     = $authors->name("IVORW");
-
 =head1 DESCRIPTION
 
 This class provides a hash of CPAN authors' PAUSE ID and name to be 
@@ -64,9 +51,21 @@ This module was created to remember those CPAN Authors who are no longer with
 us, who have given us their inspiration in the form of code, to continue and
 celebrate their time with us.
 
+=head1 OUR HEROES
+
+  AMORETTE    Hojung Yoon           d.2013
+  ANDREWF     Andrew Ford           d.2014
+  CKARG       Christian Karg        d.2013
+  GMCCAR      Greg McCarroll        d.2013
+  IVORW       Ivor Williams         d.2009
+  NI-S        Nick Ing-Simmons      d.2006
+  RKOBES      Randy Kobes           d.2010
+  SCHOP       Ariel Brosh           d.2003
+  SPOON       Iain Truskett         d.2003
+
 =head1 MAINTENANCE
 
-If you are aware of any CPAN author that has sadly left us, and who is not 
+If you are aware of any CPAN author that we have sadly lost, and who is not 
 listed here, please send me their ID/name via email or RT, and I will update 
 the module. If there are any mistakes, please contact me as soon as possible,
 and I'll amend the entry right away.
@@ -76,32 +75,6 @@ and I'll amend the entry right away.
 L<Acme::CPANAuthors> - Main class to manipulate this one
 
 =head1 SUPPORT
-
-You can find documentation for this module with the perldoc command.
-
-    perldoc Acme::CPANAuthors::InMemoriam
-
-You can also look for information at:
-
-=over 4
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/Acme-CPANAuthors-InMemoriam>
-
-=item * MetaCPAN
-
-L<https://metacpan.org/module/Acme::CPANAuthors::InMemoriam>
-
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/Acme-CPANAuthors-InMemoriam>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/Acme-CPANAuthors-InMemoriam>
-
-=back
 
 Bugs, patches and feature requests can be reported at:
 
