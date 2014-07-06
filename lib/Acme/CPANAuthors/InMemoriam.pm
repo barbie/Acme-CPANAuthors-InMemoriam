@@ -20,6 +20,7 @@ use Acme::CPANAuthors::Register (
     'RKOBES'    => 'Randy Kobes',
     'SCHOP'     => 'Ariel Brosh',
     'SPOON'     => 'Iain Truskett',
+    'SUGMAK'    => 'Makoto Sugiyama',
     'TADMC'     => 'Tad McClellan',
     'VSARKISS'  => 'Vahe Sarkissian'
 
@@ -65,6 +66,7 @@ celebrate their time with us.
   RKOBES        Randy Kobes         d.2010
   SCHOP         Ariel Brosh         d.2003
   SPOON         Iain Truskett       d.2003
+  SUGMAK        Makoto Sugiyama     d.2010
   TADMC         Tad McClellan       d.2012
   VSARKISS      Vahe Sarkissian     d.2008
 
