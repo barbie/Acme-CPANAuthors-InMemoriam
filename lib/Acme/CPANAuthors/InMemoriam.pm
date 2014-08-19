@@ -16,6 +16,7 @@ use Acme::CPANAuthors::Register (
     'CKARG'     => 'Christian Karg',
     'GMCCAR'    => 'Greg McCarroll',
     'IVORW'     => 'Ivor Williams',
+    'JAITKEN'   => 'James Aitken',
     'NI-S'      => 'Nick Ing-Simmons',
     'RKOBES'    => 'Randy Kobes',
     'SCHOP'     => 'Ariel Brosh',
@@ -62,6 +63,7 @@ celebrate their time with us.
   CKARG         Christian Karg      d.2013
   GMCCAR        Greg McCarroll      d.2013
   IVORW         Ivor Williams       d.2009
+  JAITKEN       James Aitken        d.2014
   NI-S          Nick Ing-Simmons    d.2006
   RKOBES        Randy Kobes         d.2010
   SCHOP         Ariel Brosh         d.2003
