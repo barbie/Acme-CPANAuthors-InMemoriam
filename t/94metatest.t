@@ -13,17 +13,25 @@ plan skip_all => "Test::CPAN::Meta required for testing META.yml" if $@;
 
 plan 'no_plan';
 
-my $yaml = meta_spec_ok(undef,undef,@_);
+my $meta = meta_spec_ok(undef,undef,@_);
 
 use Acme::CPANAuthors::InMemoriam;
 my $version = $Acme::CPANAuthors::InMemoriam::VERSION;
 
-is($yaml->{version},$version,
+is($meta->{version},$version,
     'META.yml distribution version matches');
 
-if($yaml->{provides}) {
-    for my $mod (keys %{$yaml->{provides}}) {
-        is($yaml->{provides}{$mod}{version},$version,
-            "META.yml entry [$mod] version matches");
+if($meta->{provides}) {
+    for my $mod (keys %{$meta->{provides}}) {
+        is($meta->{provides}{$mod}{version},$version,
+            "META.yml entry [$mod] version matches distribution version");
+
+        eval "require $mod";
+        my $VERSION = '$' . $mod . '::VERSION';
+        my $v = eval "$VERSION";
+        is($meta->{provides}{$mod}{version},$v,
+            "META.json entry [$mod] version matches module version");
+
+        isnt($meta->{provides}{$mod}{version},0);
     }
 }

@@ -5,6 +5,7 @@ Revision history for Acme-CPANAuthors-InMemoriam
         - added James Aitken (JAITKEN) (notified by Karen Etheridge, confirmed
           by  Yanick Champoux).
         - fixed license fields in META.json to be lists.
+        - extended test suite.
 
 1.03    2014-07-09
         - added Sugiyama-san (SUGMAK) (notified by Ishigaki-san, confirmed by 
