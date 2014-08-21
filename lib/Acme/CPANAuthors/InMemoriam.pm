@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "1.03";
+    $VERSION = "1.04";
 }
 
 use Acme::CPANAuthors::Register (
