@@ -18,6 +18,7 @@ use Acme::CPANAuthors::Register (
     'IVORW'     => 'Ivor Williams',
     'JAITKEN'   => 'James Aitken',
     'NI-S'      => 'Nick Ing-Simmons',
+    'NOBULL'    => 'Brian McCauley',
     'RKOBES'    => 'Randy Kobes',
     'SCHOP'     => 'Ariel Brosh',
     'SPOON'     => 'Iain Truskett',
@@ -65,6 +66,7 @@ celebrate their time with us.
   IVORW         Ivor Williams       d.2009
   JAITKEN       James Aitken        d.2014
   NI-S          Nick Ing-Simmons    d.2006
+  NOBULL        Brian McCauley      d.2015
   RKOBES        Randy Kobes         d.2010
   SCHOP         Ariel Brosh         d.2003
   SPOON         Iain Truskett       d.2003
