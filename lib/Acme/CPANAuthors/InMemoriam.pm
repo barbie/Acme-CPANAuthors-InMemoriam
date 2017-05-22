@@ -14,6 +14,7 @@ use Acme::CPANAuthors::Register (
     'AMORETTE'  => 'Hojung Yoon',
     'ANDREWF'   => 'Andrew Ford',
     'CKARG'     => 'Christian Karg',
+    'GARYAJ'    => 'Gary Ashton-Jones',
     'GMCCAR'    => 'Greg McCarroll',
     'IVORW'     => 'Ivor Williams',
     'JAITKEN'   => 'James Aitken',
