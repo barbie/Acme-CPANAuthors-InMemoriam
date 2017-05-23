@@ -13,6 +13,7 @@ use Acme::CPANAuthors::Register (
 
     'AMORETTE'  => 'Hojung Yoon',
     'ANDREWF'   => 'Andrew Ford',
+    'AVENJ'     => 'Jon Portnoy',
     'CKARG'     => 'Christian Karg',
     'ENCRYPTIO' => 'Chris Kastorff',
     'GARYAJ'    => 'Gary Ashton-Jones',
@@ -63,6 +64,7 @@ celebrate their time with us.
 
   AMORETTE      Hojung Yoon         d.2013
   ANDREWF       Andrew Ford         d.2014
+  AVENJ         Jon Portnoy         d.2016
   CKARG         Christian Karg      d.2013
   ENCRYPTIO     Chris Kastorff      d.2017
   GARYAJ        Gary Ashton-Jones   d.2016
