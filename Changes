@@ -1,6 +1,8 @@
 Revision history for Acme-CPANAuthors-InMemoriam
 ================================================
 
+        - added Jon Portnoy (AVENJ) (notified by Kent Fredric, CPAN RT#117177)
+
 1.06	2017-05-22
         - added Gary Ashton-Jones (GARYAJ) (notified by Karen Etheridge).
         - added Chris Kastorff (ENCRYPTIO) (notified by Kaitlyn Parkhurst)
