@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "1.07";
+    $VERSION = "1.08";
 }
 
 use Acme::CPANAuthors::Register (
@@ -131,7 +131,7 @@ Thanks to Kenichi Ishigaki for writing C<Acme::CPANAuthors>.
 
 =head1 COPYRIGHT & LICENSE
 
-  Copyright 2013-2017 Barbie for Miss Barbell Productions.
+  Copyright 2013-2019 Barbie for Miss Barbell Productions.
 
   This distribution is free software; you can redistribute it and/or
   modify it under the Artistic License 2.0.
