@@ -21,6 +21,7 @@ use Acme::CPANAuthors::Register (
     'GMCCAR'    => 'Greg McCarroll',
     'IVORW'     => 'Ivor Williams',
     'JAITKEN'   => 'James Aitken',
+    'JGOFF'     => 'Jeff Goff',
     'KHAMPTON'  => 'Kip Hampton',
     'NI-S'      => 'Nick Ing-Simmons',
     'NOBULL'    => 'Brian McCauley',
